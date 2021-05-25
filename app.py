@@ -143,7 +143,7 @@ def Optimal():
 
 def main():
     image = Image.open("inventory.png")
-    logo = Image.open("logo1.png")
+    logo = Image.open("logo.jpg")
     st.set_page_config(page_title="ManPages", page_icon=logo)
     st.image(image)
     st.title("@ManPages")
